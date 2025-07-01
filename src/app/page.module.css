@@ -1,0 +1,172 @@
+.mainContent {
+  padding: 20px;
+
+
+}
+  /* about-me-sectiom */
+  .aboutMeSection {
+    margin-bottom: 30px;
+  }
+  
+  .mainInfCont {
+    padding: 30px;
+    width: 250%;
+  }
+  
+  .aboutMeProfession {
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 17px;
+    color: rgb(81, 106, 132);
+    margin-bottom: 20px;
+  }
+  
+  .aboutMeName {
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 55px;
+    margin: 0 0 10px 0px;
+    color: rgb(59, 78, 99);
+  }
+  
+  .aboutMeDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(81, 106, 132);
+    width: 90%;
+  }
+  
+  /* my projects-sectiom */
+  .myProjectsSection {
+    margin-bottom: 30px;
+  }
+  
+  .mainContentTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgb(59, 78, 99);
+    margin-bottom: 10px;
+  }
+  
+  .myProjectsList {
+    padding: 0 0 0 17px;
+    width: 90%;
+  }
+  
+  .myProjectsItem {
+    color: rgb(81, 106, 132);
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .myProjectsText {
+    color: rgb(81, 106, 132);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* margin-left: 5px; */
+  }
+  
+  .myProjectsLink {
+    color: rgb(81, 106, 132);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .myProjectsLink:hover
+   {
+    color: rgb(123, 160, 199);
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .myProjectsBrecket {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(81, 106, 132);
+  }
+  
+  /* my-work-exp-company */
+  .myWorkExpCompany {
+    color: rgb(81, 106, 132);
+  }
+  
+  .myWorkExpPosition {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+    color: rgb(81, 106, 132);
+  }
+  
+  .myWorkExpPeriod {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgb(81, 106, 132);
+    margin: 0 0 10px 0;
+  }
+  
+  .myWorkExpDivider {
+    color: rgb(81, 106, 132);
+  }
+  
+  .myWorkExpDuties {
+    padding: 0 0 0 17px;
+  }
+  
+  .myWorkExpDuti {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(81, 106, 132);
+  }
+  
+  .myWorkExpCompanyBlock {
+    padding: 0 0 15px 0;
+  }
+  
+  /* education sectiom */
+  .myEducationPlace {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(81, 106, 132);
+    margin: 0 0 10px 0;
+  }
+  
+  .myEducationProf {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: rgb(81, 106, 132);
+    margin: 0 0 10px 0;
+  }
+  
+  .myEducationPeriod {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgb(81, 106, 132);
+  }
+  
+  .myEducationPeriodDivider {
+    color: rgb(81, 106, 132);
+  }
+  
+  
