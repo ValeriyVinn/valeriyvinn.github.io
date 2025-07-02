@@ -3,22 +3,28 @@ import css from "./page.module.css";
 import Profession from "@/components/Profession/Profession";
 import Summary from "@/components/Summary/Summary";
 import TechScills from "@/components/TechSkills/TechSkills";
+import Contacts from "@/components/Contacts/Contacts";
+import SoftSkills from "@/components/SoftSkills/SoftSkills";
+import Languages from "@/components/Languages/Languages";
+import Projects from "@/components/Projects/Projects";
+import Education from "@/components/Education/Education";
+import WorkExperience from "@/components/WorkExperience/WorkExperience";
+import Photo from "@/components/Photo/Photo";
 
 export default function HomePage() {
   return (
-    
     <main className={css.resume}>
-      <div className={css.photo}>Фото</div>
-      <div className={css.name}><Name/></div>
-      <div className={css.profession}><Profession/></div>
-      <div className={css.summary}><Summary/></div>
-      <div className={css.techSkills}><TechScills/></div>
-      <div className={css.softSkills}>Soft Skills</div>
-      <div className={css.projects}>Projects</div>
-      <div className={css.workExperience}>Work Experience</div>
-      <div className={css.education}>Education</div>
-      <div className={css.languages}>Languages</div>
-      <div className={css.contacts}>Contacts</div>
+      <Photo/>
+      <Name />
+      <Profession />
+      <Summary />
+      <TechScills />
+      <SoftSkills />
+      <Projects />
+      <WorkExperience />
+      <Education />
+      <Languages />
+      <Contacts />
     </main>
   );
 }

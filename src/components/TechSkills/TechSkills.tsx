@@ -3,7 +3,8 @@ import css from "./TechSkills.module.css";
 
 export default function TechScills() {
   return (
-    <div className={css.techSkills}>
+      <div className={css.techSkills}>
+          <h2>Tech Skills</h2>
       <ul>
         <li>
           <Link href="/tech-skills/css">CSS</Link>
