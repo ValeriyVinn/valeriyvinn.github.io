@@ -33,7 +33,7 @@ export default function WorkExperience() {
         </li>
         <li>
           <h3>Podilsky Scientific Lyceum | Teachers assistant</h3>
-          <p>November 2019 - November 2019 | Present </p>
+          <p>November 2019 - Present | Vinnytsia, Ukraine </p>
           <ul>
             <li>
               Providing support to teachers and students in and outside the
