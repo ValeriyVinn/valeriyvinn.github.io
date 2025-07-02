@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import css from "./layout.module.css"
-// import Sidebar from "../components/sidebar/page";
+
 
 
 
@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={css.body}>
-        {/* <Sidebar />
-        <main className="mainContainer">{children}</main> */}
-        {children}
+               {children}
       </body>
     </html>
   );
