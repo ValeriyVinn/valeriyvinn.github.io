@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import css from "./layout.module.css"
-
-
-
+import css from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: "Resume",
@@ -17,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={css.body}>
-               {children}
-      </body>
+      <body className={css.body}>{children}</body>
     </html>
   );
 }

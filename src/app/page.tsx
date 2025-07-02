@@ -2,6 +2,7 @@ import Name from "@/components/Name/Name";
 import css from "./page.module.css";
 import Profession from "@/components/Profession/Profession";
 import Summary from "@/components/Summary/Summary";
+import TechScills from "@/components/TechSkills/TechSkills";
 
 export default function HomePage() {
   return (
@@ -11,7 +12,7 @@ export default function HomePage() {
       <div className={css.name}><Name/></div>
       <div className={css.profession}><Profession/></div>
       <div className={css.summary}><Summary/></div>
-      <div className={css.techSkills}>Tech Skills</div>
+      <div className={css.techSkills}><TechScills/></div>
       <div className={css.softSkills}>Soft Skills</div>
       <div className={css.projects}>Projects</div>
       <div className={css.workExperience}>Work Experience</div>
