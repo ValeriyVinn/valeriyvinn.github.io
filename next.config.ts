@@ -1,11 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  basePath: "", // ❗️обов'язково пустий для User репозиторію
-  assetPrefix: "/", // ❗️додай цей рядок
-};
+import { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 
-export default nextConfig;
+const nextConfig: NextConfig = {};
+
+const withNextIntl = createNextIntlPlugin();
+export default withNextIntl(nextConfig);
