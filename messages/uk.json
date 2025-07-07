@@ -1,6 +1,124 @@
 {
   "HomePage": {
     "title": "Привіт!",
-    "name": "Валерій Свистун"
+    "name": "Валерій Свистун",
+    "profession": "Фулстек розробник",
+    "summary": "Я молодий фронтенд-розробник. Читаю документацію та пишу код. Через кілька місяців завершу навчання в GoIt Academy на фулстек-розробника. Я хочу змінити навчання, за яке плачу, на роботу, за яку не плачу. Зрештою, найкраща освіта – це робота, найкраща робота – це омріяна робота за найкращу ціну. Моя мета – крок за кроком опанувати професію, і робити проекти цінними для клієнтів.",
+    "languages": {
+      "title": "Мови",
+      "english": "Англійська - Pre-intermediate",
+      "ukrainian": "Українська - Рідна",
+      "russian": "Російська - Вільно"
+    },
+
+    "workexpexperience": {
+      "title": "Досвід роботи",
+
+      "item1": {
+        "institution": "ТОВ «Рефрен» | менеджер",
+        "field1": "Гуртова торгівля.",
+        "field2": "Роздрібна торговля.",
+        "period": "Серпень 1998 - Травень 2004 | Вінниця, Україна"
+      },
+      "item2": {
+        "institution": "Приватний підприємець",
+        "field1": "Торгівля квітами та рослинами.",
+        "field2": "Вирощування декоративних культур.",
+        "period": "Тавень 2002 - Листопад 2019 | Вінниця, Україна. "
+      },
+      "item3": {
+        "institution": "Подільський науковий ліцей | Помічник вихователя",
+        "field1": "Надання підтримки вчителям та учням як у навчальному середовищі, так і поза ним.",
+        "field2": "Комунікація з батьками.",
+        "period": "Листопад 2019 - Дотепер | Вінниця, Україна. "
+      }
+    },
+
+    "education": {
+      "title": "Освіта",
+      "item1": {
+        "institution": "Вінницький національний аграрний університет",
+        "faculty": "Факультет агрономії та лісівництва, агрономія",
+        "period": "1998–2004 | Україна"
+      },
+      "item2": {
+        "institution": "GoIT",
+        "faculty": "Фулстек розробник",
+        "period": "2022–2023 | Україна"
+      }
+    },
+
+    "techSkills": {
+      "title": "Технічні навички"
+    },
+
+    "projects": {
+      "title": "Проекти",
+      "items": [
+        {
+          "title": "WEB STUDIO",
+          "projectUrl": "https://valeriyvinn.github.io/goit-markup-hw-08/",
+          "githubUrl": "https://github.com/ValeriyVinn/goit-markup-hw-08",
+          "techStack": "HTML5, CSS3, SASS",
+          "description": "Сайт веб-дизайну, який пропонує ефективні рішення для вашого бізнесу.",
+          "role": "Роль: Розробник",
+          "contribution": "Сольний проєкт."
+        },
+        {
+          "title": "ICE CREAM",
+          "projectUrl": "https://nikitashvindt.github.io/notsogreen/",
+          "githubUrl": "https://github.com/NikitaShvindt/notsogreen",
+          "techStack": "HTML5, CSS3, SASS, JavaScript",
+          "description": "Вебсайт, де ви можете замовити натуральне морозиво онлайн та отримати повну інформацію про продукт.",
+          "role": "Роль: Розробник",
+          "contribution": "Командний проект. Розроблено розділ «Переваги»."
+        },
+        {
+          "title": "CINEMANIA",
+          "projectUrl": "https://andriy-minyailo.github.io/project-watchflix/",
+          "githubUrl": "https://github.com/Andriy-Minyailo/project-watchflix",
+          "techStack": "HTML5, CSS3, SASS, JavaScript, REST API, React",
+          "description": "Розважальний веб-сайт для ознайомлення з тенденціями кіноіндустрії та створення власних колекцій фільмів.",
+          "role": "Роль: Розробник",
+          "contribution": "Командний проект. Розроблено розділ «Кнопки»."
+        }
+      ]
+    },
+
+    "skills": {
+      "title": "Особисті навички",
+      "one": "Відповідальність та наполегливість",
+      "two": "Гарна комунікація",
+      "three": "Здатність до самоорганізації",
+      "four": "Прагнення до вдосконалення",
+      "five": "Гнучкість"
+    },
+
+    "contacts": {
+      "connections": {
+        "label": "Контакти",
+        "value": "Контакти"
+      },
+      "phone": {
+        "label": "Телефон",
+        "value": "+38 012 345 67 89"
+      },
+      "email": {
+        "label": "Пошта",
+        "value": "valeriy.all@gmail.com"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/valeriy-svystun/?locale=uk_UA"
+      },
+      "gitHub": {
+        "label": "GitHub",
+        "url": "https://github.com/ValeriyVinn"
+      },
+      "address": {
+        "label": "Адреса",
+        "value": "Вінниця, Україна"
+      }
+    }
   }
 }

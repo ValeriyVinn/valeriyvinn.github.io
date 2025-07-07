@@ -1,6 +1,128 @@
 {
   "HomePage": {
     "title": "Hello!",
-    "name": "Valery Svystun"
+
+    "name": "Valeriy Svystun",
+
+    "profession": "Fullstack Developer ",
+
+    "summary": "I am a Junior Front End developer. I read docs and write code. In a few months, I will complete my studies at GoIt Academy as a full-stack developer. I want to change the study for which I pay to a job for which I do not pay. After all, the best education is work, the best work is paid work for the best price. My goal is to master the profession step by step to make projects valuable for the customers.",
+
+    "languages": {
+      "title": "Languages",
+      "english": "English - Pre-intermediate",
+      "ukrainian": "Ukrainian - Native",
+      "russian": "Russian - Fluent"
+    },
+
+    "workexpexperience": {
+      "title": "Work Experience.",
+      "item1": {
+        "institution": "Refren LTD | manager",
+        "field1": "Wholesale trade.",
+        "field2": "Retail trade.",
+        "period": "August 1998 - May 2004 | Vinnytsia, Ukraine"
+      },
+      "item2": {
+        "institution": "Individual entrepreneur.",
+        "field1": "Trade in flowers and plants.",
+        "field2": "Cultivation of ornamental crops.",
+        "period": "May 2002 - November 2019 | Vinnytsia, Ukraine. "
+      },
+      "item3": {
+        "institution": "Podilsky Scientific Lyceum | Teachers assistant.",
+        "field1": "Providing support to teachers and students in and outside the learning environment.",
+        "field2": "Communicating with parents .",
+        "period": "November 2019 - Present | Vinnytsia, Ukraine "
+      }
+    },
+
+    "education": {
+      "title": "Education",
+      "item1": {
+        "institution": "Vinnytsia National Agrarian University",
+        "faculty": "Faculty of Agronomy and Forestry, Agronomy",
+        "period": "1998–2004 | Ukraine"
+      },
+      "item2": {
+        "institution": "GoIT",
+        "faculty": "FullStack Developer",
+        "period": "2022–2023 | Ukraine"
+      }
+    },
+
+    "techSkills": {
+      "title": "Tech Skills"
+    },
+
+    "projects": {
+      "title": "Projects",
+      "items": [
+        {
+          "title": "WEB STUDIO",
+          "projectUrl": "https://valeriyvinn.github.io/goit-markup-hw-08/",
+          "githubUrl": "https://github.com/ValeriyVinn/goit-markup-hw-08",
+          "techStack": "HTML5, CSS3, SASS",
+          "description": "A web design website that offers effective solutions for your business.",
+          "role": "Role: Developer",
+          "contribution": "Solo project."
+        },
+        {
+          "title": "ICE CREAM",
+          "projectUrl": "https://nikitashvindt.github.io/notsogreen/",
+          "githubUrl": "https://github.com/NikitaShvindt/notsogreen",
+          "techStack": "HTML5, CSS3, SASS, JavaScript",
+          "description": "Website where you can order natural ice cream online and get full product information.",
+          "role": "Role: Developer",
+          "contribution": "Team project. Developed the Advantages section."
+        },
+        {
+          "title": "CINEMANIA",
+          "projectUrl": "https://andriy-minyailo.github.io/project-watchflix/",
+          "githubUrl": "https://github.com/Andriy-Minyailo/project-watchflix",
+          "techStack": "HTML5, CSS3, SASS, JavaScript, REST API, React",
+          "description": "An entertaining website to discover film industry trends and create personal movie collections.",
+          "role": "Role: Developer",
+          "contribution": "Team project. Developed the Buttons section."
+        }
+      ]
+    },
+
+    "skills": {
+      "title": "Soft Skills",
+      "one": "Responsibility and persistence",
+      "two": "Good communication",
+      "three": "Ability to self-organize",
+      "four": "Striving for self-development",
+      "five": "Flexibility"
+    },
+
+    "contacts": {
+      "connections": {
+        "label": "Contacts",
+        "value": "Contacts"
+      },
+
+      "phone": {
+        "label": "Phone",
+        "value": "+38 012 345 67 89"
+      },
+      "email": {
+        "label": "Email",
+        "value": "valeriy.all@gmail.com"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/valeriy-svystun/"
+      },
+      "gitHub": {
+        "label": "GitHub",
+        "url": "https://github.com/ValeriyVinn"
+      },
+      "address": {
+        "label": "Address",
+        "value": "Vinnytsia, Ukraine"
+      }
+    }
   }
 }

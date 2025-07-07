@@ -6,9 +6,12 @@ import { usePathname } from "next/navigation";
 const links = [
   { href: "/", label: "Home" },
   { href: "/tech-skills/css", label: "CSS" },
-  { href: "/tech-skills/java-script", label: "JavaScript" },
+  { href: "/tech-skills/javascript", label: "Java Script" },
+  { href: "/tech-skills/typescript", label: "Type Script" },
   { href: "/tech-skills/react", label: "React" },
   { href: "/tech-skills/redux", label: "Redux" },
+  { href: "/tech-skills/next-js", label: "Next.Js" },
+  { href: "/tech-skills/node-js", label: "Node.Js" },
 ];
 
 export default function TechSkillsLayout({

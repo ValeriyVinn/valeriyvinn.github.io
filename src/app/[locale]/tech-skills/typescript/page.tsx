@@ -1,7 +1,7 @@
-export default function JavaScriptPage() {
+export default function TypeScript() {
   return (
     <div>
-      <h2>JavaScript</h2>
+      <h2>Type Script</h2>
       <p>Список навичок, знань або прикладів...</p>
     </div>
   );

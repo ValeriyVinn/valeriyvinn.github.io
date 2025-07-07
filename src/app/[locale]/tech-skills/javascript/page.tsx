@@ -1,7 +1,7 @@
-export default function CSSPage() {
+export default function JavaScriptPage() {
   return (
     <div>
-      <h2>CSS</h2>
+      <h2>Java Script</h2>
       <p>Список навичок, знань або прикладів...</p>
     </div>
   );

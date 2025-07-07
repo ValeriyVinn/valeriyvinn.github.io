@@ -1,7 +1,7 @@
-export default function React() {
+export default function NextJs() {
   return (
     <div>
-      <h2>React</h2>
+      <h2>Next.Js</h2>
       <p>Список навичок, знань або прикладів...</p>
     </div>
   );

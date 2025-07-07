@@ -1,15 +1,59 @@
-import css from "./Contacts.module.css";
+type ContactItem = {
+  label: string;
+  value?: string;
+  url?: string;
+};
 
-export default function Contacts() {
+type ContactsProps = {
+  contacts: {
+    connections: ContactItem;
+    phone: ContactItem;
+    email: ContactItem;
+    linkedin: ContactItem;
+    gitHub: ContactItem;
+    address: ContactItem;
+  };
+};
+
+export default function Contacts(
+  
+  { contacts }: ContactsProps
+) {
   return (
-    <div className={css.contacts}>
-      <h2>Contacts</h2>
+    <div>
+      <h2>{contacts.connections.label}</h2>
+      {/* або інше заголовкове поле, за потреби */}
       <ul>
-        <li>+38 012 345 67 89</li>
-        <li>valeriy.all@gmail.com</li>
-        <li>Linkedin </li>
-        <li>GitHub</li>
-        <li>Vinnytsia, Ukraine</li>
+        <li>
+          <strong>{contacts.phone.label}:</strong> {contacts.phone.value}
+        </li>
+        <li>
+          <strong>{contacts.email.label}:</strong>
+          <a href={`mailto:${contacts.email.value}`}>{contacts.email.value}</a>
+        </li>
+        <li>
+          <strong>{contacts.linkedin.label}:</strong>
+          <a
+            href={contacts.linkedin.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {contacts.linkedin.label}
+          </a>
+        </li>
+        <li>
+          <strong>{contacts.gitHub.label}:</strong>
+          <a
+            href={contacts.gitHub.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {contacts.gitHub.label}
+          </a>
+        </li>
+        <li>
+          <strong>{contacts.address.label}:</strong> {contacts.address.value}
+        </li>
       </ul>
     </div>
   );

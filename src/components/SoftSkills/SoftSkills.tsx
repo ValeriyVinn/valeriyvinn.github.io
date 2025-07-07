@@ -1,15 +1,17 @@
 import css from "./SoftSkills.module.css";
 
-export default function SoftSkills() {
+type SoftSkillsProps = {
+  title: string;
+  skills: string[];
+};
+export default function SoftSkills({ title, skills }: SoftSkillsProps) {
   return (
     <div className={css.softSkills}>
-      <h2>Soft Skills</h2>
+      <h2>{title}</h2>
       <ul>
-        <li>Responsibility and persistence</li>
-        <li>Good communication</li>
-        <li>Ability to self-organize </li>
-        <li>Striving for self-development</li>
-        <li>Flexibility</li>
+        {skills.map((skill, i) => (
+          <li key={i}>{skill}</li>
+        ))}
       </ul>
     </div>
   );
