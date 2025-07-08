@@ -1,0 +1,17 @@
+.list{
+    display: flex;
+}
+.githubLink,
+.linkedinLink{
+    margin-right: 20px;
+    
+    font-size: 24px;
+}
+
+.githubLink{
+    color: black;
+}
+
+.linkedinLink{
+   color: blue; 
+}

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
+import css from "./LocaleSwitcher.module.css"
 
 export default function LocaleSwitcher() {
   const pathname = usePathname();
@@ -15,7 +16,7 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <div style={{ marginBottom: "1rem" }}>
+    <div className={css.localeSwitcher}>
       <Link href={getNewPath("en")}>
         <button disabled={currentLocale === "en"}>English</button>
       </Link>

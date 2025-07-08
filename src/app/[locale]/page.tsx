@@ -1,29 +1,24 @@
 "use client";
 
-import Name from "@/components/Name/Name";
-// import css from "./page.module.css";
-import Profession from "@/components/Profession/Profession";
 import Summary from "@/components/Summary/Summary";
 import TechSkills from "@/components/TechSkills/TechSkills";
-import Contacts from "@/components/Contacts/Contacts";
+// import Contacts from "@/components/Contacts/Contacts";
 import SoftSkills from "@/components/SoftSkills/SoftSkills";
 import Languages from "@/components/Languages/Languages";
 import Projects from "@/components/Projects/Projects";
 import Education from "@/components/Education/Education";
 import WorkExperience from "@/components/WorkExperience/WorkExperience";
-import Photo from "@/components/Photo/Photo";
+// import "./page.module.css";
 
 import { useTranslations } from "next-intl";
+
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
 
   return (
     <>
-      <h1>{t("title")}</h1>
-      <Photo />
-      <Name name={t("name")} />
-      <Profession profession={t("profession")} />
+      
       <Summary summary={t("summary")} />
       <TechSkills
         title={t("techSkills.title")}
@@ -126,7 +121,7 @@ export default function HomePage() {
           t("languages.russian"),
         ]}
       />
-      <Contacts
+      {/* <Contacts
         contacts={{
           connections: {
             label: t("contacts.connections.label"),
@@ -153,7 +148,7 @@ export default function HomePage() {
             value: t("contacts.address.value"),
           },
         }}
-      />
+      /> */}
     </>
   );
 }
