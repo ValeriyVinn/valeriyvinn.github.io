@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Profession({ profession }: { profession: string }) {
   return (
     <div className={css.profession}>
-      <h2>{profession}</h2>
+      <h3>{profession}</h3>
       <ProfileLinks
         links={[
           {

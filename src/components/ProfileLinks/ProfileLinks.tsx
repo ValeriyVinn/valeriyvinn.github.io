@@ -22,7 +22,7 @@ export default function ProfileLinks({ links }: ProfileLinksProps) {
       <ul className={css.list}>
         <li className={css.github}>
           <a
-            href={github.url}
+            href={"https://github.com/ValeriyVinn"}
             target="_blank"
             rel="noopener noreferrer"
             aria-label={github.label}
@@ -33,7 +33,7 @@ export default function ProfileLinks({ links }: ProfileLinksProps) {
         </li>
         <li className={css.linkedin}>
           <a
-            href={linkedin.url}
+            href={"https://www.linkedin.com/in/valeriy-svystun-06b685273/"}
             target="_blank"
             rel="noopener noreferrer"
             aria-label={linkedin.label}
