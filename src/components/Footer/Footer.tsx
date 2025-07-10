@@ -9,7 +9,7 @@ import css from "./Footer.module.css";
 export default function Footer() {
   const t = useTranslations("HomePage");
   return (
-    <div className={css.footer}>
+    <div className={`${css.footer} container`}>
       <FooterTypes
         contacts={{
           connections: {

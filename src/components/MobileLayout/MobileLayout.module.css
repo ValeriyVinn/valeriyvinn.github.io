@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.photo {
+  position: relative;
+  width: 100%;
+}
+
+.photo :global(img) {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.localeSwitcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  /* z-index: 2; */
+}
+
+.nameBlock {
+  position: absolute;
+  bottom: 15px;
+  /* left: 15px; */
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.5);
+}

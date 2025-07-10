@@ -1,6 +1,6 @@
 "use client";
 
-// import css from "./Footer.module.css";
+import css from "./FooterTypes.module.css";
 
 type ContactItem = {
   label: string;
@@ -21,13 +21,13 @@ type ContactsProps = {
 
 export default function FooterTypes({ contacts }: ContactsProps) {
   return (
-    <div>
+    <div className={css.footerTypes}>
       {/* <h2>{contacts.connections.label}</h2> */}
       {/* або інше заголовкове поле, за потреби */}
-      <ul>
+      <ul className={css.footerList}>
 
         <li>
-          <strong>{contacts.email.label}:</strong>
+          {/* <strong>{contacts.email.label}:</strong> */}
           <a href={`mailto:${contacts.email.value}`}>{contacts.email.value}</a>
         </li>
         {/* <li>
@@ -51,7 +51,8 @@ export default function FooterTypes({ contacts }: ContactsProps) {
           </a>
         </li> */}
         <li>
-          <strong>{contacts.address.label}:</strong> {contacts.address.value}
+          {/* <strong>{contacts.address.label}:</strong> */}
+          {contacts.address.value}
         </li>
       </ul>
     </div>

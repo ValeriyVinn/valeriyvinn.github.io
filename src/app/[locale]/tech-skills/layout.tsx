@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import css from "./layout.module.css";
 const links = [
   { href: "/", label: "Home" },
   { href: "/tech-skills/css", label: "CSS" },
@@ -24,9 +24,9 @@ export default function TechSkillsLayout({
   return (
     <div className="tech-layout">
       <aside className="sidebar">
-        <ul>
+        <ul className={css.techSkillsList}>
           {links.map(({ href, label }) => (
-            <li key={href}>
+            <li className={css.techSkillsLink} key={href}>
               <Link href={href} className={pathname === href ? "active" : ""}>
                 {label}
               </Link>
