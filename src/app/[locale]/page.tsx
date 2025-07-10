@@ -1,7 +1,7 @@
 "use client";
 
-import MobileLayout from "@/Components/MobileLayout/MobileLayout";
-import DesktopLayout from "@/Components/DesktopLayout/DesktopLayout";
+import MobileLayout from "@/components/MobileLayout/MobileLayout";
+import DesktopLayout from "@/components/DesktopLayout/DesktopLayout";
 import { useTranslations } from "next-intl";
 
 import css from "./page.module.css";
