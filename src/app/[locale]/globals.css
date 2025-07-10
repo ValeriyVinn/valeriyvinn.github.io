@@ -12,6 +12,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --bg: #faf9f6;
+  --text: #2c3e50;
+  --accent: #2ba9a9;
+  --accent-bg: #d1f2eb;
+  --highlight: #ffd95c;
+  --link: #f48c78;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e2e2e;
+    --text: #f0f0f0;
+    --accent: #2ba9a9;
+    --accent-bg: #143d3d;
+    --highlight: #ffd95c;
+    --link: #f48c78;
+  }
+}
+
+
 body {
   font-family: inherit;
   /* color: var(--color-text); */
@@ -96,7 +116,7 @@ div {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: 5px;
+  padding-right: 15px;
   width: 100%;
   box-sizing: border-box;
   max-width: 100%; /* за замовчуванням */

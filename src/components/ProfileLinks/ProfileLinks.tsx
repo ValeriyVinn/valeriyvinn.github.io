@@ -1,21 +1,11 @@
 "use client";
 
 import css from "./ProfileLinks.module.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-type ProfileLink = {
-  label: string;
-  url: string;
-  icon: React.ReactNode;
-};
-
-type ProfileLinksProps = {
-  links: [ProfileLink, ProfileLink]; // саме два елементи — tuple
-};
-
-export default function ProfileLinks({ links }: ProfileLinksProps) {
-  const [github, linkedin] = links;
+export default function ProfileLinks() {
+  
 
   return (
     <div className={css.profileLinks}>
@@ -25,10 +15,10 @@ export default function ProfileLinks({ links }: ProfileLinksProps) {
             href={"https://github.com/ValeriyVinn"}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={github.label}
+            aria-label="Github"
             className={css.githubLink}
           >
-            {github.icon}
+            <FaGithub />
           </a>
         </li>
         <li className={css.linkedin}>
@@ -36,10 +26,10 @@ export default function ProfileLinks({ links }: ProfileLinksProps) {
             href={"https://www.linkedin.com/in/valeriy-svystun-06b685273/"}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={linkedin.label}
+            aria-label="linkedin"
             className={css.linkedinLink}
           >
-            {linkedin.icon}
+            <FaLinkedin />
           </a>
         </li>
       </ul>

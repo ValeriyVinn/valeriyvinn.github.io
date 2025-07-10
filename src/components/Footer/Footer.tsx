@@ -1,40 +1,30 @@
-"use client";
-
-import FooterTypes from "./FooterTypes";
-import { useTranslations } from "next-intl";
-
+import ProfileLinks from "../ProfileLinks/ProfileLinks";
 import css from "./Footer.module.css";
+import { IoCallOutline, IoMailOutline } from "react-icons/io5";
 
-
-export default function Footer() {
-  const t = useTranslations("HomePage");
+export default function FooterMobile() {
   return (
-    <div className={`${css.footer} container`}>
-      <FooterTypes
-        contacts={{
-          connections: {
-            label: t("contacts.connections.label"),
-           
-          },
+    <div className={css.footerMobile}>
+      <ul className={css.footerMobileList}>
+        <li className={css.footerMobileItem}>
+          <div className={css.contactLine}>
+            <IoMailOutline className={css.icon} />
+            <a href="mailto:valeriy.all@gmail.com" className={css.link}>
+              valeriy.all@gmail.com
+            </a>
+          </div>
+        </li>
 
-          email: {
-            label: t("contacts.email.label"),
-            value: t("contacts.email.value"),
-          },
-          linkedin: {
-            label: t("contacts.linkedin.label"),
-            url: t("contacts.linkedin.url"),
-          },
-          gitHub: {
-            label: t("contacts.gitHub.label"),
-            url: t("contacts.gitHub.url"),
-          },
-          address: {
-            label: t("contacts.address.label"),
-            value: t("contacts.address.value"),
-          },
-        }}
-      />
+        <li className={css.footerMobileItem}>
+          <div className={css.contactLine}>
+            <IoCallOutline className={css.icon} />
+            <a href="tel:+380123456789">+38 (012) 345 67 89</a>
+          </div>
+        </li>
+        <li className={css.footerProfileLnks}>
+          <ProfileLinks />
+        </li>
+      </ul>
     </div>
   );
 }

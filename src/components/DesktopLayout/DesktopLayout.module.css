@@ -9,24 +9,25 @@
   }
   
   .aside {
-    background-color: #48a1fa;
-    background-color: rgb(81, 106, 132);
-    /* background-color:steelblue; */
+
+    background-color:#f0f8f7;
     /* padding: 1.5rem; */
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* color: white; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* height: 100%; */
   }
   
   .aside .header {
     text-align: center;
     margin-bottom: 2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 2.2);
   }
   
   .aside .header .img {
     width: 160px;
     height: 160px;
     object-fit: cover;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   

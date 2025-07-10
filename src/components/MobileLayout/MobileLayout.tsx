@@ -1,8 +1,9 @@
 import Education from "../Education/Education";
-import LocaleSwitcher from "../Header/LocaleSwitcher";
-import Name from "../Header/Name";
-import Photo from "../Header/Photo";
-import Profession from "../Header/Profession";
+import FooterMobile from "../Footer/Footer";
+import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
+import Name from "../Name/Name";
+import Photo from "../Photo/Photo";
+import Profession from "../Profession/Profession";
 import Languages from "../Languages/Languages";
 import Projects from "../Projects/Projects";
 import SoftSkills from "../SoftSkills/SoftSkills";
@@ -23,13 +24,11 @@ export default function MobileLayout({ t }: { t: TFunction }) {
           <div className={css.localeSwitcher}>
             <LocaleSwitcher />
           </div>
-        <div className={css.nameBlock}>
-          <Name name={t("name")} />
-          <Profession profession={t("profession")} />
-        </div>          
+          <div className={css.nameBlock}>
+            <Name name={t("name")} />
+            <Profession profession={t("profession")} />
+          </div>
         </div>
-
-
       </header>
       <main>
         <Summary summary={t("summary")} />
@@ -136,6 +135,9 @@ export default function MobileLayout({ t }: { t: TFunction }) {
           ]}
         />
       </main>
+      <footer>
+        <FooterMobile />
+      </footer>
     </div>
   );
 }
