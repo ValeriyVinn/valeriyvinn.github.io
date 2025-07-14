@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+// import PageTransition from "@/components/PageTransition/PageTransition";
+// import PageWrapper from "@/components/PageWrapper/PageWrapper";
 import css from "./layout.module.css";
 const links = [
   { href: "/", label: "Home" },
@@ -34,7 +36,10 @@ export default function TechSkillsLayout({
           ))}
         </ul>
       </aside>
-      <section className="content">{children}</section>
+      <section className="content">
+        
+       {children}
+      </section>
     </div>
   );
 }
