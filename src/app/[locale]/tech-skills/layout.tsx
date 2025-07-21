@@ -24,7 +24,7 @@ export default function TechSkillsLayout({
   const pathname = usePathname();
 
   return (
-    <div className="tech-layout">
+    <div className={css.techLayout}>
       <aside className="sidebar">
         <ul className={css.techSkillsList}>
           {links.map(({ href, label }) => (
@@ -36,10 +36,7 @@ export default function TechSkillsLayout({
           ))}
         </ul>
       </aside>
-      <section className="content">
-        
-       {children}
-      </section>
+      <section className="content">{children}</section>
     </div>
   );
 }

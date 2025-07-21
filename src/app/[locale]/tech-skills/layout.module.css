@@ -1,6 +1,11 @@
+
+
+
 .techSkillsList{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green;
 }
 
 .techSkillsLink:not(:last-child){
@@ -8,9 +13,6 @@
 }
 
 .techSkillsLink:first-child{
-    /* padding: 0px 5px;
-    border: 1px solid green;
- border-radius: 5px; */
     margin-right: 20px;
     color: green;
     font-weight: bold;

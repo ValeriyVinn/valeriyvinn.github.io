@@ -1,0 +1,10 @@
+/* .techLayout {
+  border-bottom: 11px solid red;
+} */
+
+.cssList {
+  display: flex;
+}
+.cssLink:not(:last-child) {
+  margin-right: 10px;
+}

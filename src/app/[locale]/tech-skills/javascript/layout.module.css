@@ -1,0 +1,6 @@
+.javaScriptList{
+    display: flex;
+}
+.javaScriptLink:not(:last-child) {
+    margin-right: 10px;
+}
