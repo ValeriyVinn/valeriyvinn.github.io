@@ -18,7 +18,7 @@ export default function ProfileLinks() {
             aria-label="Github"
             className={css.githubLink}
           >
-            <FaGithub />
+            <FaGithub className={css.icon} />
           </a>
         </li>
         <li className={css.linkedin}>
@@ -29,7 +29,7 @@ export default function ProfileLinks() {
             aria-label="linkedin"
             className={css.linkedinLink}
           >
-            <FaLinkedin />
+            <FaLinkedin className={css.icon} />
           </a>
         </li>
       </ul>

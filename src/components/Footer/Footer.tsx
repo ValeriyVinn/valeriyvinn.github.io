@@ -7,24 +7,22 @@ export default function FooterMobile() {
     <div className={css.footerMobile}>
       <ul className={css.footerMobileList}>
         <li className={css.footerMobileItem}>
-          <div className={css.contactLine}>
-            <IoMailOutline className={css.icon} />
-            <a href="mailto:valeriy.all@gmail.com" className={css.link}>
-              valeriy.all@gmail.com
-            </a>
-          </div>
+          <IoMailOutline className={css.icon} />
+          <a href="mailto:valeriy.all@gmail.com" className={css.linkMail}>
+            valeriy.all@gmail.com
+          </a>
         </li>
 
         <li className={css.footerMobileItem}>
-          <div className={css.contactLine}>
-            <IoCallOutline className={css.icon} />
-            <a href="tel:+380123456789">+38 (012) 345 67 89</a>
-          </div>
-        </li>
-        <li className={css.footerProfileLnks}>
-          <ProfileLinks />
+          <IoCallOutline className={css.icon} />
+          <a href="tel:+380123456789" className={css.linkPhone}>
+            +38 (012) 345 67 89
+          </a>
         </li>
       </ul>
+      <div className={css.footerProfileLnks}>
+        <ProfileLinks />
+      </div>
     </div>
   );
 }

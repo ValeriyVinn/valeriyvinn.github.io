@@ -17,7 +17,7 @@ type TFunction = (key: string) => string;
 
 export default function MobileLayout({ t }: { t: TFunction }) {
   return (
-    <div className={`${css.container} container`}>
+    <div className={`${css.container}`}>
       <header className={css.header}>
         <div className={css.photo}>
           <Photo />

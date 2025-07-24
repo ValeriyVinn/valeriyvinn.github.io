@@ -1,4 +1,6 @@
 .footerMobile {
+  display: flex;
+  justify-content: space-around;
   padding: 7px 0px;
   background-color: #f0f8f7;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -14,31 +16,43 @@
   list-style: none;
   padding: 0;
   margin: 0;
- 
 }
 
 .footerMobileItem:not(:last-child) {
- margin-right: 10px;
-  }
-
-.contactLine {
+  margin-right: 10px;
+  text-align: center;
+}
+.footerMobileItem {
   display: flex;
   align-items: center;
-
 }
 
-/* .link {
+/* .contactLine {
+  display: flex;
+  align-items: center;
 } */
+.contactLine:hover {
+  color: blue;
+}
+
+.linkMail {
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+.linkPhone {
+  text-decoration: none;
+}
 
 .icon {
-    margin-right: 2px;
-      
+  margin-right: 2px;
+}
+.footerProfileLnks {
+  display: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .footerProfileLnks {
-    display: none;
+    display: block;
+    /* margin-left: 40px; */
   }
-
-
 }
