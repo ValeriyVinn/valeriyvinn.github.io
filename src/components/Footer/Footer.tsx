@@ -15,8 +15,8 @@ export default function FooterMobile() {
 
         <li className={css.footerMobileItem}>
           <IoCallOutline className={css.icon} />
-          <a href="tel:+380123456789" className={css.linkPhone}>
-            +38 (012) 345 67 89
+          <a href="tel:+380972575380" className={css.linkPhone}>
+            +38 (097) 257 53 80
           </a>
         </li>
       </ul>
